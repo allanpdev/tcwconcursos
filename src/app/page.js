@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       </main>
 
-      <section className="p-7 pb-10">
+      <section className="bg-white p-7 pb-10">
         <div className="flex flex-col text-center items-center">
           <Image src='/video.png' width={370} height={235}/>
           <h3 className="mt-4 text-[19px] font-bold uppercase">Sobre Nossa Apostila</h3>
