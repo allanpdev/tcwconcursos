@@ -18,15 +18,20 @@ export const metadata = {
 export default function Home() {
   return (
     <div>
+      <div className="flex justify-center items-center gap-1 bg-white text-blue-500 text-center font-[500] py-1">
+        <Image src="/warning.svg" width={18} height={18} alt="a"/>
+        <span className="bg-gradient-to-b from-blue-800 to-blue-500 bg-clip-text text-transparent">Promoção válida até 30/05/2025</span>
+      </div>
+
       <Header/>
       
       <main className="bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat">
         <div className="flex flex-col items-center pt-7 pb-9 px-[32px]">
           <Image src="/apostila.png" width={200} height={200} alt="foto-apostila"/>
 
-          <div className="flex flex-col text-center text-white gap-3">
-            <h1 className="font-semibold text-[1.25em] leading-[25px]">Você quer garantir sua vaga em um dos concursos mais aguardados do país?</h1>
-            <p className="text-[1.1em] font-[200]">Prepare-se para o concurso do INSS com o melhor material de estudos disponível na internet! Com ele, você pode estudar de maneira eficiente, e direcionada para as provas, com foco na sua aprovação!</p>
+          <div className="pt-3 flex flex-col text-center text-white gap-3">
+            <h1 className="font-semibold text-[1.2em] leading-[30px]">Você quer garantir sua vaga em um dos concursos mais aguardados do país?</h1>
+            <p className="text-[1.1em] font-[400] text-gray-300">Prepare-se para o concurso do INSS com o melhor material de estudos disponível na internet! Com ele, você pode estudar de maneira eficiente, e direcionada para as provas, com foco na sua aprovação!</p>
           </div>
 
           <a href="" className="w-full h-[auto] mt-5 text-center bg-gradient-to-b from-[#0075ff] to-[#0050ad] uppercase text-white rounded-md py-3 text-[1em] font-semibold">Garantir com 30% off</a>
@@ -40,7 +45,7 @@ export default function Home() {
 
       <section className="bg-white text-black p-7 pb-10">
         <div className="flex flex-col text-center items-center">
-          <Image src='/video.png' width={370} height={235}/>
+          <Image src='/video.png' width={370} height={235} alt="video"/>
           <h3 className="mt-4 text-[19px] font-bold uppercase">Sobre Nossa Apostila</h3>
           <p className=" mt-2 text-[17px]">A nossa apostila é o material mais completo de para quem quer ser aprovado no concurso do INSS. Abordamos cada disciplina cobrada nas provas e oferecemos mapas mentais e plano de estudos para quem está começando do zero. Além de exercícios e milhares de questões gabaritadas pela Cebraspe.</p>
           <a href="" className="border py-2 px-8 mt-4 w-[fit-content] text-[17px] rounded-md">Saiba mais</a>
