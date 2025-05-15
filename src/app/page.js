@@ -55,6 +55,34 @@ export default function Home() {
       <section className="flex items-center justify-center bg-gradient-to-b from-[#0047ff] to-[#002B99] h-[165px]">
         <span className="w-[290px] text-white text-[1.2em] text-center font-bold">+ de 580 páginas com as questões mais cobradas em provas de português!</span>
       </section>
+
+      <section id="vantagens">
+        <div className="flex flex-col p-6 gap-6">
+          <div id="box-1" className="flex flex-col items-center text-center border px-6 py-8 rounded-md border-gray-300">
+            <Image src='/1.png' width={46} height={53}/>
+            <h2 className="mb-1 mt-2 text-[1.3em]">Apostila Digital</h2>
+            <p className="text-[1em]">Oferecemos mapas mentais e plano de estudos para quem está começando do zero. Além de exercícios e milhares de questões gabaritadas pela Cebraspe.</p>
+          </div>
+
+          <div id="box-2" className="flex flex-col items-center text-center border px-6 py-8 rounded-md border-gray-300">
+            <Image src='/1.png' width={46} height={53}/>
+            <h2 className="mb-1 mt-2 text-[1.3em]">Apostila Digital</h2>
+            <p className="text-[1em]">Oferecemos mapas mentais e plano de estudos para quem está começando do zero. Além de exercícios e milhares de questões gabaritadas pela Cebraspe.</p>
+          </div>
+
+          <div id="box-3" className="flex flex-col items-center text-center border px-6 py-8 rounded-md border-gray-300">
+            <Image src='/1.png' width={46} height={53}/>
+            <h2 className="mb-1 mt-2 text-[1.3em]">Apostila Digital</h2>
+            <p className="text-[1em]">Oferecemos mapas mentais e plano de estudos para quem está começando do zero. Além de exercícios e milhares de questões gabaritadas pela Cebraspe.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="garantia" className="flex flex-col items-center text-center px-8 py-10 text-white bg-[url('/garantia.png')]">
+        <Image src='/estrela.png' width={158} height={53}/>
+        <h2 className="pt-4 pb-2 text-xl">Garantia de Satisfação</h2>
+        <p className="text-base">Se por algum motivo, você não estiver satisfeito com o nosso produto, basta com que solicite um reembolso, e a nossa equipe irá restituir 100% do seu dinheiro!</p>
+      </section>
     </div>
   )
 }
