@@ -10,6 +10,9 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preload" as="image" href="/bg.webp"></link>
+      </head>
       <body
         className={`${poppins.variable} antialiased`}
       >
