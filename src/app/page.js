@@ -25,7 +25,7 @@ export default function Home() {
 
       <Header/>
       
-      <main className="bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat">
+      <main className="bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
         <div className="flex flex-col items-center pt-7 pb-9 px-[32px]">
           <Image src="/apostila.png" width={185} height={185} alt="foto-apostila"/>
 
