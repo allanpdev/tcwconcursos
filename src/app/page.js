@@ -56,23 +56,23 @@ export default function Home() {
         <span className="w-[290px] text-white text-[1.2em] text-center font-bold">+ de 580 páginas com as questões mais cobradas em provas de português!</span>
       </section>
 
-      <section id="vantagens">
-        <div className="flex flex-col p-6 gap-6">
+      <section id="vantagens" className="bg-white">
+        <div className="flex flex-col p-6 gap-6 text-black">
           <div id="box-1" className="flex flex-col items-center text-center border px-6 py-8 rounded-md border-gray-300">
-            <Image src='/1.png' width={46} height={53}/>
-            <h2 className="mb-1 mt-2 text-[1.3em]">Apostila Digital</h2>
+            <Image src='/book-blue.svg' width={46} height={53}/>
+            <h2 className="mb-1 mt-2 text-[1.23em] font-semibold">Apostila Digital</h2>
             <p className="text-[1em]">Oferecemos mapas mentais e plano de estudos para quem está começando do zero. Além de exercícios e milhares de questões gabaritadas pela Cebraspe.</p>
           </div>
 
           <div id="box-2" className="flex flex-col items-center text-center border px-6 py-8 rounded-md border-gray-300">
-            <Image src='/1.png' width={46} height={53}/>
-            <h2 className="mb-1 mt-2 text-[1.3em]">Apostila Digital</h2>
+            <Image src='/book-blue.svg' width={46} height={53}/>
+            <h2 className="mb-1 mt-2 text-[1.23em] font-semibold">Apostila Digital</h2>
             <p className="text-[1em]">Oferecemos mapas mentais e plano de estudos para quem está começando do zero. Além de exercícios e milhares de questões gabaritadas pela Cebraspe.</p>
           </div>
 
           <div id="box-3" className="flex flex-col items-center text-center border px-6 py-8 rounded-md border-gray-300">
-            <Image src='/1.png' width={46} height={53}/>
-            <h2 className="mb-1 mt-2 text-[1.3em]">Apostila Digital</h2>
+            <Image src='/book-blue.svg' width={46} height={53}/>
+            <h2 className="mb-1 mt-2 text-[1.23em] font-semibold">Apostila Digital</h2>
             <p className="text-[1em]">Oferecemos mapas mentais e plano de estudos para quem está começando do zero. Além de exercícios e milhares de questões gabaritadas pela Cebraspe.</p>
           </div>
         </div>
