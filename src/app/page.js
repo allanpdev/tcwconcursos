@@ -18,11 +18,6 @@ export const metadata = {
 export default function Home() {
   return (
     <div>
-      {/* <div className="flex justify-center items-center gap-1 bg-white text-blue-500 text-center font-[500] py-1">
-        <Image src="/warning.svg" width={18} height={18} alt="a"/>
-        <span className="bg-gradient-to-b from-blue-800 to-blue-500 bg-clip-text text-transparent">Promoção válida até 30/05/2025</span>
-      </div> */}
-
       <Header/>
       
       <main className="bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
